@@ -1,27 +1,22 @@
 {
     "compilerOptions": {
-        "importsNotUsedAsValues": "remove",
         "declaration": true,
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-        "target": "es2020",
-        "module": "Node16",
-        "preserveValueImports": false,
+        "target": "ES2022",
+        "module": "node16",
         "moduleResolution": "node16",
         "lib": [
-            "DOM",
-            "ES2020",
-            "ES2021",
-            "ES2021.String"
+            "ES2022"
         ],
         "baseUrl": "./src",
+        "paths": {
+            "@/*": [ "./*" ]
+        },
         "rootDirs": [
             "src"
         ],
         "outDir": "./dist",
         "strict": true,
         "typeRoots": [
-            "./typings",
             "node_modules/@types"
         ],
         "esModuleInterop": true,
@@ -30,10 +25,7 @@
         "forceConsistentCasingInFileNames": true
     },
     "include": [
-        "env.d.ts",
-        "src/**/*",
         "./src/**/*.ts",
-        ".eslintrc.js",
     ],
     "exclude": [
         "./src/tests/*.ts"
