@@ -9,19 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hexona69/kasumi-template.git"
+    "url": "git+https://github.com/HexaNona/kasumi-template.git"
   },
   "keywords": [
     "Kasumi",
     "kook",
     "bot"
   ],
-  "author": "Hexona",
+  "author": "HexaNona",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hexona69/kasumi-template/issues"
+    "url": "https://github.com/HexaNona/kasumi-template/issues"
   },
-  "homepage": "https://github.com/hexona69/kasumi-template#readme",
+  "homepage": "https://github.com/HexaNona/kasumi-template#readme",
   "dependencies": {
     "kasumi.js": "^0.6.0",
     "ts-node": "^10.9.1",
